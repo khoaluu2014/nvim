@@ -17,8 +17,17 @@ require("lazy").setup({
         'numToStr/Comment.nvim',
         lazy = false,
     },
+    -- git
+    {
+        "kdheepak/lazygit.nvim",
+        dependencies =  {
+            "nvim-telescope/telescope.nvim",
+            "nvim-lua/plenary.nvim"
+        },
+    },
     -- telescope
-    { 'nvim-telescope/telescope-fzf-native.nvim',
+    {
+        'nvim-telescope/telescope-fzf-native.nvim',
         build = 'make'
     },
     {
