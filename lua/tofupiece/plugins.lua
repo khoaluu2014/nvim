@@ -9,6 +9,7 @@ require("lazy").setup({
     {"lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {}},
     {'nvim-tree/nvim-web-devicons'},
     {'fladson/vim-kitty'},
+    {'norcalli/nvim-colorizer.lua'},
     {
         'windwp/nvim-autopairs',
         event = "InsertEnter",

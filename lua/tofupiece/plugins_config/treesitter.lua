@@ -5,7 +5,7 @@ vim.defer_fn(function()
     file_ignore_patterns = {"node_modules", "bin"},
     -- Autoinstall languages that are not installed. Defaults to false (but you can change for yourself!)
     auto_install = false,
-
+    autotag = { enable = true },
     highlight = { enable = true },
     indent = { enable = true },
     incremental_selection = {
