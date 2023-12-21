@@ -10,4 +10,5 @@ require("tofupiece.plugins_config.autopairs")
 require("tofupiece.plugins_config.catppuccin")
 require("tofupiece.plugins_config.lazygit")
 require("tofupiece.plugins_config.colorizer")
+require("tofupiece.plugins_config.tailwind-sorter")
 

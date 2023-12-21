@@ -26,6 +26,12 @@ require("lazy").setup({
             "nvim-lua/plenary.nvim"
         },
     },
+    {
+        'laytan/tailwind-sorter.nvim',
+        dependencies = {'nvim-treesitter/nvim-treesitter', 'nvim-lua/plenary.nvim'},
+        build = 'cd formatter && npm i && npm run build',
+        config = true,
+    },
     -- telescope
     {
         'nvim-telescope/telescope-fzf-native.nvim',
