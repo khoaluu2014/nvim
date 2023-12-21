@@ -2,6 +2,7 @@
 require("lazy").setup({
     {"catppuccin/nvim", name="catppuccin", priority = 1000},
     {"nvim-treesitter/nvim-treesitter"},
+    {"windwp/nvim-ts-autotag"},
     {"nvim-lualine/lualine.nvim"},
     {"tpope/vim-fugitive"},
     {"mbbill/undotree"},
