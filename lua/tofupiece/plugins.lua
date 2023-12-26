@@ -9,6 +9,17 @@ require("lazy").setup({
     {"christoomey/vim-tmux-navigator", lazy = false},
     {"lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {}},
     {'nvim-tree/nvim-web-devicons'},
+    {
+        "folke/noice.nvim",
+        event = "VeryLazy",
+        opts = {
+            -- add any options here
+        },
+        dependencies = {
+            -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
+            "MunifTanjim/nui.nvim",
+        }
+    },
     {'fladson/vim-kitty'},
     {'norcalli/nvim-colorizer.lua'},
     -- lazy.nvim
