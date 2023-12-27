@@ -1,6 +1,10 @@
 -- Plugins
 require("lazy").setup({
+    -- Theme
     {"catppuccin/nvim", name="catppuccin", priority = 1000},
+    {"rebelot/kanagawa.nvim"},
+    --
+    {"HiPhish/rainbow-delimiters.nvim"},
     {"nvim-treesitter/nvim-treesitter"},
     {"windwp/nvim-ts-autotag"},
     {"nvim-lualine/lualine.nvim"},
