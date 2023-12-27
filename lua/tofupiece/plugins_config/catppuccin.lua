@@ -3,8 +3,14 @@ require('catppuccin').setup({
         indent_blankline = {
             enabled = true,
             scope_color = 'mocha',
-            colored_indent_levels = true,
+            colored_indent_levels = true
         },
+        mini = {
+            enabled = true,
+            indentscope_color = 'mocha'
+        },
+        noice = true,
+        notify = true
     }
 }
 )
