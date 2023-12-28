@@ -1,6 +1,6 @@
 -- catppuccin
 require("catppuccin").setup({
-    flavour = "mocha",
+    flavour = "frappe",
     transparent_background = true,
     styles = { -- Handles the styles of general hi groups (see `:h highlight-args`):
         comments = { "italic" },
@@ -11,12 +11,12 @@ require("catppuccin").setup({
     integrations = {
         indent_blankline = {
             enabled = true,
-            scope_color = 'mocha',
+            scope_color = 'frappe',
             colored_indent_levels = true
         },
         mini = {
             enabled = true,
-            indentscope_color = 'mocha'
+            indentscope_color = 'frappe'
         },
         noice = true,
         notify = true
