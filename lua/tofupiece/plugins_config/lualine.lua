@@ -2,8 +2,20 @@ require('lualine').setup {
     options = {
         icons_enabled = true,
         theme = 'catppuccin',
+        component_separators = "",
     },
     sections = {
+        lualine_a = {
+            {
+                "mode",
+            },
+        },
+        lualine_c = {
+            {
+                "filename",
+                file_status = true,
+            },
+        },
         lualine_x = {
             {
                 require("noice").api.statusline.mode.get,
@@ -14,11 +26,5 @@ require('lualine').setup {
                 cond = require("noice").api.status.command.has,
             },
         },
-        lualine_a = {
-            {
-                'filename',
-                path = 1,
-            }
-        }
     }
 }
