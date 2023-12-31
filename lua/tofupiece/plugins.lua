@@ -71,7 +71,8 @@ require("lazy").setup({
     {"L3MON4D3/LuaSnip"},
     {"williamboman/mason.nvim"},
     {"williamboman/mason-lspconfig.nvim"},
-    {"nvimtools/none-ls.nvim"}
+    {"nvimtools/none-ls.nvim"},
+    {"Vimjas/vim-python-pep8-indent"}
 }, {})
 
 
