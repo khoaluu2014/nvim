@@ -14,6 +14,10 @@ require("lazy").setup({
     {"lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {}},
     {'nvim-tree/nvim-web-devicons'},
     {
+         "folke/trouble.nvim",
+         dependencies = { "nvim-tree/nvim-web-devicons" },
+    },
+    {
         "folke/noice.nvim",
         event = "VeryLazy",
         opts = {
@@ -61,7 +65,9 @@ require("lazy").setup({
     },
     {
         "nvim-telescope/telescope.nvim", tag = "0.1.5",
-        dependencies = {"nvim-lua/plenary.nvim"}
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+        }
     },
     -- completion
     {"VonHeikemen/lsp-zero.nvim", branch = "v3.x"},
