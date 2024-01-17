@@ -31,6 +31,11 @@ require("lazy").setup({
     },
     {'fladson/vim-kitty'},
     {'norcalli/nvim-colorizer.lua'},
+    -- DAP
+    {
+        'mfussenegger/nvim-dap',
+        dependencies = {"rcarriga/nvim-dap-ui"}
+    },
     -- lazy.nvim
     {
         'windwp/nvim-autopairs',
@@ -38,7 +43,7 @@ require("lazy").setup({
     },
     {
         'numToStr/Comment.nvim',
-        lazy = false,
+        lazy = false
     },
     -- git
     {
