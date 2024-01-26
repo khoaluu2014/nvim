@@ -9,6 +9,7 @@ require("catppuccin").setup({
 
     },
     integrations = {
+
         indent_blankline = {
             enabled = true,
             scope_color = 'frappe',
@@ -19,7 +20,15 @@ require("catppuccin").setup({
             indentscope_color = 'frappe'
         },
         noice = true,
-        notify = true
+        notify = true,
+        native_lsp = {
+            underlines = {
+                errors = { "undercurl" },
+                hints = { "undercurl" },
+                warnings = { "undercurl" },
+                information = { "undercurl" },
+            },
+        },
     },
 })
 -- kanagawa default

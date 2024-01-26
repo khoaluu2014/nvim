@@ -27,6 +27,10 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 
+-- Undercurl
+vim.cmd([[let &t_Cs = "\e[4:3m]"]])
+vim.cmd([[let &t_Ce = "\e[4:0m]"]])
+
 if vim.fn.has('nvim') == 1 and vim.fn.getenv('CONDA_PREFIX') ~= '' then
   vim.g.python3_host_prog = vim.fn.getenv('CONDA_PREFIX') .. '/bin/python'
 end
