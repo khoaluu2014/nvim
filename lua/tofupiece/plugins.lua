@@ -14,8 +14,8 @@ require("lazy").setup({
     {"lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {}},
     {'nvim-tree/nvim-web-devicons'},
     {
-         "folke/trouble.nvim",
-         dependencies = { "nvim-tree/nvim-web-devicons" },
+        "folke/trouble.nvim",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
     },
     {
         "folke/noice.nvim",
