@@ -89,6 +89,7 @@ require("lazy").setup({
         "nvim-neorg/neorg",
         ft = 'norg',
         cmd = 'Neorg',
+        priority = 30,
         build = ":Neorg sync-parsers",
         -- tag = "*",
         dependencies = { "nvim-lua/plenary.nvim" },
