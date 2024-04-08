@@ -84,16 +84,6 @@ require("lazy").setup({
     {"williamboman/mason-lspconfig.nvim"},
     {"nvimtools/none-ls.nvim"},
     {"Vimjas/vim-python-pep8-indent"},
-    -- note taking
-    {
-        "nvim-neorg/neorg",
-        ft = 'norg',
-        cmd = 'Neorg',
-        priority = 30,
-        build = ":Neorg sync-parsers",
-        -- tag = "*",
-        dependencies = { "nvim-lua/plenary.nvim" },
-    },
 }, {})
 
 
