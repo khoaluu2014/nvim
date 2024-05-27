@@ -15,5 +15,4 @@ require("tofupiece.plugins_config.noice")
 require("tofupiece.plugins_config.notify")
 require("tofupiece.plugins_config.none-ls")
 require("tofupiece.plugins_config.trouble")
-require("tofupiece.plugins_config.neorg")
 
