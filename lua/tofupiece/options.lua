@@ -35,8 +35,3 @@ if vim.fn.has('nvim') == 1 and vim.fn.getenv('CONDA_PREFIX') ~= '' then
   vim.g.python3_host_prog = vim.fn.getenv('CONDA_PREFIX') .. '/bin/python'
 end
 
-vim.api.nvim_create_autocmd({"BufEnter", "BufWinEnter"}, {
-  pattern = {"*.norg"},
-  command = "set conceallevel=3"
-})
-

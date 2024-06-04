@@ -1,7 +1,7 @@
 -- catppuccin
 require("catppuccin").setup({
     flavour = "frappe",
-    transparent_background = true,
+    transparent_background = false,
     styles = { -- Handles the styles of general hi groups (see `:h highlight-args`):
         comments = { "italic" },
         functions = { "italic" },
