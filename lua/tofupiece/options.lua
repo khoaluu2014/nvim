@@ -1,9 +1,9 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
+vim.opt.tabstop = 2
+vim.opt.softtabstop = 2
+vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
 vim.opt.smartindent = true
@@ -31,7 +31,6 @@ vim.opt.colorcolumn = "80"
 vim.cmd([[let &t_Cs = "\e[4:3m]"]])
 vim.cmd([[let &t_Ce = "\e[4:0m]"]])
 
-if vim.fn.has('nvim') == 1 and vim.fn.getenv('CONDA_PREFIX') ~= '' then
-  vim.g.python3_host_prog = vim.fn.getenv('CONDA_PREFIX') .. '/bin/python'
+if vim.fn.has("nvim") == 1 and vim.fn.getenv("CONDA_PREFIX") ~= "" then
+	vim.g.python3_host_prog = vim.fn.getenv("CONDA_PREFIX") .. "/bin/python"
 end
-
