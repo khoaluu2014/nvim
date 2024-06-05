@@ -1,6 +1,6 @@
 -- catppuccin
 require("catppuccin").setup({
-    flavour = "frappe",
+    flavour = "mocha",
     transparent_background = false,
     styles = { -- Handles the styles of general hi groups (see `:h highlight-args`):
         comments = { "italic" },
@@ -35,6 +35,7 @@ require("catppuccin").setup({
 require("kanagawa").setup({
     transparent = true
 })
+
 vim.o.termguicolors = true
 vim.o.background = "dark"
 vim.cmd("colorscheme catppuccin")
