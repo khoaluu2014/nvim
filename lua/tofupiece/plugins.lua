@@ -76,7 +76,6 @@ require("lazy").setup({
 		},
 	},
 	-- completion
-	{ "VonHeikemen/lsp-zero.nvim", branch = "v3.x" },
 	{ "neovim/nvim-lspconfig" },
 	{ "MunifTanjim/prettier.nvim" },
 	{ "hrsh7th/cmp-nvim-lsp" },
@@ -85,5 +84,4 @@ require("lazy").setup({
 	{ "williamboman/mason.nvim" },
 	{ "williamboman/mason-lspconfig.nvim" },
 	{ "nvimtools/none-ls.nvim" },
-	{ "Vimjas/vim-python-pep8-indent" },
 }, {})
