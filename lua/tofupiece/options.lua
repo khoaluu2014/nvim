@@ -31,12 +31,6 @@ vim.opt.colorcolumn = "80"
 vim.cmd([[let &t_Cs = "\e[4:3m]"]])
 vim.cmd([[let &t_Ce = "\e[4:0m]"]])
 
-if vim.fn.has('nvim') == 1 and vim.fn.getenv('CONDA_PREFIX') ~= '' then
-  vim.g.python3_host_prog = vim.fn.getenv('CONDA_PREFIX') .. '/bin/python'
+if vim.fn.has("nvim") == 1 and vim.fn.getenv("CONDA_PREFIX") ~= "" then
+	vim.g.python3_host_prog = vim.fn.getenv("CONDA_PREFIX") .. "/bin/python"
 end
-
-vim.api.nvim_create_autocmd({"BufEnter", "BufWinEnter"}, {
-  pattern = {"*.norg"},
-  command = "set conceallevel=3"
-})
-
