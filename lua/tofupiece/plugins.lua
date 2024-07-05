@@ -3,6 +3,12 @@ require("lazy").setup({
 	-- Theme
 	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	{ "rebelot/kanagawa.nvim" },
+	{
+		"folke/tokyonight.nvim",
+		lazy = false,
+		priority = 1000,
+		opts = {},
+	},
 	--
 	{ "HiPhish/rainbow-delimiters.nvim" },
 	{ "nvim-treesitter/nvim-treesitter" },
