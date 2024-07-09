@@ -14,7 +14,6 @@ require("lazy").setup({
 	{ "nvim-treesitter/nvim-treesitter" },
 	{ "windwp/nvim-ts-autotag" },
 	{ "nvim-lualine/lualine.nvim" },
-	{ "tpope/vim-fugitive" },
 	{ "mbbill/undotree" },
 	{ "christoomey/vim-tmux-navigator", lazy = false },
 	{ "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
