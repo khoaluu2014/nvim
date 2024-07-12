@@ -4,6 +4,7 @@
   "catppuccin": { "branch": "main", "commit": "4fbab1f01488718c3d54034a473d0346346b90e3" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "5af77f54de1b16c34b23cba810150689a3a90312" },
   "indent-blankline.nvim": { "branch": "master", "commit": "258b5d899da7c681ce0e0225de32c593f3914c27" },
+  "kanagawa-paper.nvim": { "branch": "master", "commit": "9720afbf6ca60c65051d0fc81ee974b86096c1be" },
   "kanagawa.nvim": { "branch": "master", "commit": "c19b9023842697ec92caf72cd3599f7dd7be4456" },
   "lazy.nvim": { "branch": "main", "commit": "96584866b9c5e998cbae300594d0ccfd0c464627" },
   "lazygit.nvim": { "branch": "main", "commit": "1e08e3f5ac1152339690140e61a4a32b3bdc7de5" },
@@ -33,7 +34,6 @@
   "tokyonight.nvim": { "branch": "main", "commit": "9e9c54471350c428e023c84179d5fb047a00cd18" },
   "trouble.nvim": { "branch": "main", "commit": "f1168feada93c0154ede4d1fe9183bf69bac54ea" },
   "undotree": { "branch": "master", "commit": "36ff7abb6b60980338344982ad4cdf03f7961ecd" },
-  "vim-fugitive": { "branch": "master", "commit": "59659093581aad2afacedc81f009ed6a4bfad275" },
   "vim-kitty": { "branch": "main", "commit": "891475671feebc4bf0f29f0a0987067913a81686" },
   "vim-tmux-navigator": { "branch": "master", "commit": "7db70e08ea03b3e4d91f63713d76134512e28d7e" }
 }
