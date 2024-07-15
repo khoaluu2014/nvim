@@ -13,7 +13,7 @@ null_ls.setup({
 		}),
 		null_ls.builtins.formatting.stylua,
 		null_ls.builtins.formatting.black,
-		null_ls.builtins.diagnostics.eslint_d,
+		require("none-ls.diagnostics.eslint_d"),
 		null_ls.builtins.formatting.csharpier,
 	},
 	on_attach = function(client, bufnr)

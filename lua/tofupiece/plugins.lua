@@ -94,5 +94,7 @@ require("lazy").setup({
 	{ "L3MON4D3/LuaSnip" },
 	{ "williamboman/mason.nvim" },
 	{ "williamboman/mason-lspconfig.nvim" },
-	{ "nvimtools/none-ls.nvim" },
+	{ "nvimtools/none-ls.nvim", dependencies = {
+		"nvimtools/none-ls-extras.nvim",
+	} },
 }, {})
