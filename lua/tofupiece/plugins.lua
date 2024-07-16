@@ -49,8 +49,7 @@ require("lazy").setup({
 	},
 	-- lazy.nvim
 	{
-		"windwp/nvim-autopairs",
-		event = "InsertEnter",
+		{ "echasnovski/mini.pairs", version = "*" },
 	},
 	{
 		"numToStr/Comment.nvim",
