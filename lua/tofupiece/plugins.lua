@@ -4,6 +4,24 @@ require("lazy").setup({
 	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	{ "rebelot/kanagawa.nvim" },
 	{
+		"folke/which-key.nvim",
+		event = "VeryLazy",
+		opts = {
+			-- your configuration comes here
+			-- or leave it empty to use the default settings
+			-- refer to the configuration section below
+		},
+		keys = {
+			{
+				"<leader>?",
+				function()
+					require("which-key").show({ global = false })
+				end,
+				desc = "Buffer Local Keymaps (which-key)",
+			},
+		},
+	},
+	{
 		"sho-87/kanagawa-paper.nvim",
 		lazy = false,
 		priority = 1000,
@@ -45,7 +63,7 @@ require("lazy").setup({
 	-- DAP
 	{
 		"mfussenegger/nvim-dap",
-		dependencies = { "rcarriga/nvim-dap-ui" },
+		dependencies = { "rcarriga/nvim-dap-ui", "nvim-neotest/nvim-nio" },
 	},
 	-- lazy.nvim
 	{
@@ -96,4 +114,7 @@ require("lazy").setup({
 	{ "nvimtools/none-ls.nvim", dependencies = {
 		"nvimtools/none-ls-extras.nvim",
 	} },
+	{
+		"huggingface/llm.nvim",
+	},
 }, {})
