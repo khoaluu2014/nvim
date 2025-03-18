@@ -35,3 +35,7 @@ vim.cmd([[let &t_Ce = "\e[4:0m]"]])
 if vim.fn.has("nvim") == 1 and vim.fn.getenv("CONDA_PREFIX") ~= "" then
 	vim.g.python3_host_prog = vim.fn.getenv("CONDA_PREFIX") .. "/bin/python"
 end
+
+--timeout
+vim.opt.timeoutlen = 500
+vim.opt.ttimeoutlen = 10

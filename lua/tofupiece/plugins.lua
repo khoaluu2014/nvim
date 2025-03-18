@@ -65,9 +65,10 @@ require("lazy").setup({
 		"mfussenegger/nvim-dap",
 		dependencies = { "rcarriga/nvim-dap-ui", "nvim-neotest/nvim-nio" },
 	},
-	-- lazy.nvim
+	-- mini.nvim
 	{
 		{ "echasnovski/mini.pairs", version = "*" },
+		{ "echasnovski/mini.icons", version = "*" },
 	},
 	{
 		"numToStr/Comment.nvim",
