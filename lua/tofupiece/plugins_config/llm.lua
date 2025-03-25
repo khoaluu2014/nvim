@@ -19,12 +19,12 @@ require("llm").setup({
 		suffix = "<fim_suffix>",
 	},
 	debounce_ms = 150,
-	accept_keymap = "<Tab>",
+	accept_keymap = "<Leader><Tab>",
 	dismiss_keymap = "<S-Tab>",
 	tls_skip_verify_insecure = false,
 	tokenizer = nil, -- cf Tokenizer paragraph
 	context_window = 4096, -- max number of tokens for the context window
-	enable_suggestions_on_startup = true,
+	enable_suggestions_on_startup = false,
 	enable_suggestions_on_files = "*", -- pattern matching syntax to enable suggestions on specific files, either a string or a list of strings
 	disable_url_path_completion = false, -- cf Backend
 })

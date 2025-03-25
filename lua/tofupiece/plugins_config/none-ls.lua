@@ -15,6 +15,7 @@ null_ls.setup({
 		null_ls.builtins.formatting.black,
 		require("none-ls.diagnostics.eslint_d"),
 		null_ls.builtins.formatting.csharpier,
+		null_ls.builtins.formatting.google_java_format.with({ extra_args = { "--aosp" } }),
 	},
 	on_attach = function(client, bufnr)
 		if client.supports_method("textDocument/formatting") then

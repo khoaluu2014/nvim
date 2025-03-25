@@ -1,5 +1,6 @@
 -- catppuccin
 require("catppuccin").setup({
+
 	flavour = "macchiato",
 	transparent_background = true,
 	styles = { -- Handles the styles of general hi groups (see `:h highlight-args`):
@@ -68,7 +69,7 @@ require("kanagawa-paper").setup({
 	terminalColors = true,
 	commentStyle = { italic = true },
 	functionStyle = { italic = false },
-	keywordStyle = { italic = false, bold = false },
+	keywordStyle = { italic = true, bold = false },
 	statementStyle = { italic = false, bold = false },
 	typeStyle = { italic = false },
 	colors = { theme = {}, palette = {} }, -- override default palette and theme colors
